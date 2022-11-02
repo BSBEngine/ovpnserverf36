@@ -4,7 +4,7 @@ OpenVPN server for Fedora 36
 Install OpenVPN and Easy-rsa
 # dnf install openvpn easy-rsa
 
-Disable SELinux if you want (change SELINUX=disabled)
+Disable SELinux if you want (change SELINUX=disabled) or configure SELinux (hint: semanage port -a -t openvpn_port_t -p "$protocol" "$port")
 # nano /etc/selinux/config
 
 Create the easy-rsa folder
