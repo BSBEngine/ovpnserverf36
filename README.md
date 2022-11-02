@@ -1,5 +1,4 @@
-# ovpnserverf36
-OpenVPN server for Fedora 36
+# OpenVPN server for Fedora 36
 
 Install OpenVPN and Easy-rsa
 # dnf install openvpn easy-rsa
