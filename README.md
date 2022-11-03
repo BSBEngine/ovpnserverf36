@@ -10,10 +10,10 @@ Create the easy-rsa folder
 # mkdir /etc/openvpn/easy-rsa
 
 Copy the easy-rsa contents to the easy-rsa folder
-#cp -air /usr/share/easy-rsa/3/* /etc/openvpn/easy-rsa
+# cp -air /usr/share/easy-rsa/3/* /etc/openvpn/easy-rsa
 
 Change the directory to the easy-rsa folder
-#cd /etc/openvpn/easy-rsa/
+# cd /etc/openvpn/easy-rsa/
 
 Create the certs
 # ./easyrsa init-pki
